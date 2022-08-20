@@ -29,7 +29,7 @@ try:
         
         # the heart of the program
         'plaid-python==7.1.0',
-        'beancount==2.2.1',
+        'beancount==2.3.5',
     ])
 
 except ImportError:
