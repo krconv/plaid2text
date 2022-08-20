@@ -188,7 +188,7 @@ class SQLiteStorage():
             update['pulled_to_file'  ] = mark_pulled            
         update['date_last_pulled'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 
-        update['archived'] = null
+        update['archived'] = None
 
         c = self.conn.cursor()
         c.execute("""
