@@ -31,7 +31,7 @@ def get_locale_currency_symbol():
     conv = locale.localeconv()
     return conv['int_curr_symbol']
 
-DEFAULT_CONFIG_DIR = os.path.expanduser('~/.config/plaid2text')
+DEFAULT_CONFIG_DIR = os.path.expanduser('./plaid2text')
 
 CONFIG_DEFAULTS = dotdict({
     # For configparser, int must be converted to str
